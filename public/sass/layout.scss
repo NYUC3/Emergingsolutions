@@ -1,0 +1,84 @@
+@import "mixins";
+@import "variables";
+
+body {
+	font-family: 'Lato', Helvetica, Verdana, Arial;
+  background-color: #EDEFED;
+}
+
+.nyu-voice-navbar {
+	margin-bottom: 0px;
+}
+
+.home-banner {
+	width: 100%;
+  background: url(../images/wsp.jpg) no-repeat;
+  position: relative;
+  background-position: center center;
+  background-size: auto 450px;
+
+  @include respond-to(medium-screens){
+    background-size: 100% 450px;
+  }
+}
+
+.bg-overlay {
+	background: linear-gradient(#444F5C, #334159);
+	opacity: 0.45;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+}
+
+.home-wrapper {
+	color: white;
+	padding: 140px 0px;
+
+	@media (max-width: 360px) {
+    padding: 130px 0px;
+  }
+}
+
+footer.footer {
+	color: white;
+	background-color: $brand-purple;
+}
+
+.of-hidden {
+	overflow: hidden;
+}
+
+/*
+.signatures i.fa {
+	display: block;
+  height: 100px;
+  font-size: 60px;
+  line-height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  border-right: 2px solid rgba(0,0,0,.5);
+  margin-right: 20px;
+  padding-right: 20px;
+  color: rgba(0,0,0,.75);
+}
+
+.comments i.fa {
+	display: block;
+  height: 100px;
+  font-size: 60px;
+  line-height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  margin-right: 20px;
+  padding-right: 20px;
+  color: rgba(0,0,0,.75);
+}
+*/
+
+.signatures, .comments {
+	width: 50%;
+	float: left
+}

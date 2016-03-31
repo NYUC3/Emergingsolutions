@@ -1,0 +1,34 @@
+$brand-purple: #8D6EC8;
+$brand-green: #6DC995;
+$brand-red: #FA4848;
+$brand-grey: #464D5C;
+$brand-yellow: #FFE087;
+$brand-blue: #0E6AC7;
+
+$amountOfLight: 10%;
+
+$brand-purple-light: lighten($brand-purple, $amountOfLight);
+$brand-green-light: lighten($brand-green, $amountOfLight);
+$brand-grey-light: lighten($brand-grey, $amountOfLight);
+$brand-red-light: lighten($brand-red, $amountOfLight);
+$brand-blue-light: lighten($brand-blue, $amountOfLight);
+$brand-yellow-light: lighten($brand-yellow, $amountOfLight);
+
+$brand-purple-dark: darken($brand-purple, $amountOfLight);
+$brand-green-dark: darken($brand-green, $amountOfLight);
+$brand-grey-dark: darken($brand-grey, $amountOfLight);
+$brand-red-dark: darken($brand-red, $amountOfLight);
+$brand-blue-dark: darken($brand-blue, $amountOfLight);
+$brand-yellow-dark: darken($brand-yellow, $amountOfLight);
+
+$margin-base: 	10px;
+$margin-sm:		5px;
+$margin-m:		10px;
+$margin-lg:		15px;
+$margin-xl: 	30px;
+
+$padding-base: 	10px;
+$padding-sm: 	5px;
+$padding-m: 	10px;
+$padding-lg:	15px;
+$padding-xl: 	30px;

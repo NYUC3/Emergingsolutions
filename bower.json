@@ -1,0 +1,22 @@
+{
+  "name": "nyu-voice",
+  "authors": [
+    "ken.chan@nyu.edu"
+  ],
+  "description": "NYU Voice Front-End",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "bootstrap-sass": "^3.3.6"
+  }
+}
